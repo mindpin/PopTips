@@ -4,7 +4,7 @@
 
 如何引用此组件：
 -------------
-** 安装 **
+### 安装
 
 ```
 git clone https://github.com/mindpin/PopTips
@@ -12,7 +12,7 @@ cd PopTips
 mvn clean install
 ```
 
-** maven引用 **
+### maven引用
 
 在maven项目，pom.xml添加以下依赖引用：
 
