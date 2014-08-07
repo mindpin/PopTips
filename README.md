@@ -2,6 +2,39 @@
 
 **浮动框泡泡组件** 是一个由用户点击view而触发一个浮动提示框，此浮动框泡泡组件是由矩形框和三角形箭头组成
 
+如何引用此组件：
+-------------
+** 安装 **
+
+```
+git clone https://github.com/mindpin/PopTips
+cd PopTips
+mvn clean install
+```
+
+** maven引用 **
+
+在maven项目，pom.xml添加以下依赖引用：
+
+```
+<dependency>
+    <groupId>com.mindpin.superpoptips</groupId>
+    <artifactId>superpoptips</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <type>apklib</type>
+</dependency>
+```
+
+使用说明
+---------------------
+请参考示例
+
+
+依赖库
+---------------------
+* [destinyd/android-archetypes][android-archetypes]
+
+
 ##所涉及到的类API说明如下：##
 
 此类是浮动框组件的父类，通过show的方法可以将浮动框组件类PopTipView添加显示到界面上   
@@ -182,3 +215,6 @@ PopTipView类是实现浮动框泡泡组件最主要的类
             //把mRedPopTipView对象加入PopTipRelativeLayout中显示出来
 		    mPopTipFrameLayout.show(mRedPopTipView);
 
+
+
+[android-archetypes]: https://github.com/destinyd/android-archetypes
